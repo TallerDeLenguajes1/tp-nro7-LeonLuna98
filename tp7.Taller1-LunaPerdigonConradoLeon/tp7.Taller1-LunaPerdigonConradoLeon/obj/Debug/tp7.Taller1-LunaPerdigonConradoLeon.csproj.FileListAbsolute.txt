@@ -3,3 +3,10 @@ C:\Users\Alumno\Desktop\tp7-Taller1\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Tall
 C:\Users\Conrado\Desktop\Works&Games\Facultad\2° año Lic. Inf\Taller de Lenguaje 1\tp1_Taller\tp7-Taller1\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\obj\Debug\tp7.Taller1-LunaPerdigonConradoLeon.csprojAssemblyReference.cache
 C:\Users\Conrado\Desktop\Works&Games\Facultad\2° año Lic. Inf\Taller de Lenguaje 1\tp1_Taller\tp7-Taller1\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\obj\Debug\tp7.Taller1-LunaPerdigonConradoLeon.csproj.CoreCompileInputs.cache
 E:\tp7-Taller1\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\bin\Debug\tp7.Taller1-LunaPerdigonConradoLeon.exe.config
+C:\Users\Conrado\Desktop\tp-nro7-LeonLuna98\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\bin\Debug\tp7.Taller1-LunaPerdigonConradoLeon.exe.config
+C:\Users\Conrado\Desktop\tp-nro7-LeonLuna98\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\bin\Debug\tp7.Taller1-LunaPerdigonConradoLeon.exe
+C:\Users\Conrado\Desktop\tp-nro7-LeonLuna98\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\bin\Debug\tp7.Taller1-LunaPerdigonConradoLeon.pdb
+C:\Users\Conrado\Desktop\tp-nro7-LeonLuna98\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\obj\Debug\tp7.Taller1-LunaPerdigonConradoLeon.csprojAssemblyReference.cache
+C:\Users\Conrado\Desktop\tp-nro7-LeonLuna98\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\obj\Debug\tp7.Taller1-LunaPerdigonConradoLeon.csproj.CoreCompileInputs.cache
+C:\Users\Conrado\Desktop\tp-nro7-LeonLuna98\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\obj\Debug\tp7.Taller1-LunaPerdigonConradoLeon.exe
+C:\Users\Conrado\Desktop\tp-nro7-LeonLuna98\tp7.Taller1-LunaPerdigonConradoLeon\tp7.Taller1-LunaPerdigonConradoLeon\obj\Debug\tp7.Taller1-LunaPerdigonConradoLeon.pdb

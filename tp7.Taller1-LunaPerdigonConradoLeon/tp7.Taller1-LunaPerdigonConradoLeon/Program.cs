@@ -40,11 +40,11 @@ namespace tp7.Taller1_LunaPerdigonConradoLeon
         public elcargo cargo;
         public fechas fechanacimiento;
         public fechas fechaingreso;
-        public int sueldo;
+        public double sueldo;
 
 
 
-        public empleado(string _nombre, string _apellido, elestadocivil _estadocivil, int _sueldo, elgenero _genero, elcargo _cargo, fechas _fechanacimiento, fechas _fechaingreso)
+        public empleado(string _nombre, string _apellido, elestadocivil _estadocivil, double _sueldo, elgenero _genero, elcargo _cargo, fechas _fechanacimiento, fechas _fechaingreso)
         {
             nombre = _nombre;
             apellido = _apellido;
@@ -65,15 +65,16 @@ namespace tp7.Taller1_LunaPerdigonConradoLeon
             Console.WriteLine(estadocivil);
             Console.WriteLine(genero);
             Console.WriteLine(cargo);
-
-            Console.WriteLine("{0}  / { 1}  / { 2}", fechanacimiento.dia, fechanacimiento.mes, fechanacimiento.anio);
-            Console.WriteLine("{0}  / { 1}  / { 2}", fechaingreso.dia, fechaingreso.mes, fechaingreso.anio);
+            Console.WriteLine(sueldo);
+            Console.WriteLine(@"{0}  / {1} / {2}", fechanacimiento.dia, fechanacimiento.mes, fechanacimiento.anio);
+            Console.WriteLine(@"{0}  / {1}  / {2}", fechaingreso.dia, fechaingreso.mes, fechaingreso.anio);
             Console.WriteLine("--------------");
         }
 
 
         //el fin de la estructura
         //public int elanio_actual =2019;
+
         public int aniosTrabajados(int anio_actual)
         {
             return anio_actual - fechaingreso.anio;
@@ -117,11 +118,24 @@ namespace tp7.Taller1_LunaPerdigonConradoLeon
 
         static void Main(string[] args)
         {
-            //DateTime diaactual = DateTime.Today;
+           
             List<empleado> listaempleados = new List<empleado>();//Creo la agenda
-            //Random aleatorio = new Random();
-            listaempleados.Add(new empleado() { nombre = "Jaimito", apellido = "Lopez", /*estadocivil= aleatorio.Next(2) */});
+           
+            
+            listaempleados.Add(new empleado());
+           
+            //cargardatos();
+            //listaempleados.ForEach(y => y.cargardatos());
+           
 
+
+            listaempleados.Add(new empleado() { nombre = "Jaimito", apellido = "Lopez" ,sueldo= 123.2 });
+            listaempleados.ForEach(x => x.mostrarcontacto());
+            
+           
+
+
+            Console.ReadKey();
         }
 
 
@@ -132,7 +146,7 @@ namespace tp7.Taller1_LunaPerdigonConradoLeon
             Random rnd2 = new Random();
             string nombre = "jaimito";
             string apellido = "lopez";
-            int opcion = rnd.Next(1,3);
+            int opcion = rnd.Next(1, 3);
             elgenero generoX;
             switch (opcion)
             {
@@ -147,7 +161,7 @@ namespace tp7.Taller1_LunaPerdigonConradoLeon
                     break;
             }
 
-            int opcion1 = rnd1.Next(1,6);
+            int opcion1 = rnd1.Next(1, 6);
             elcargo cargox;
             switch (opcion1)
             {
@@ -173,7 +187,7 @@ namespace tp7.Taller1_LunaPerdigonConradoLeon
             }
             double sueldo = rnd2.Next(5000, 10000);
             Random rnd3 = new Random();
-            int opcion3 = rnd3.Next(1,5);
+            int opcion3 = rnd3.Next(1, 5);
             elestadocivil estadocivilx;
             switch (opcion3)
             {
@@ -193,15 +207,35 @@ namespace tp7.Taller1_LunaPerdigonConradoLeon
                     estadocivilx = elestadocivil.Soltero;
                     break;
             }
+
+            fechas lafechadenacimiento;
+            Random fecharandom1 = new Random();
+            lafechadenacimiento.dia = fecharandom1.Next(1,31);
+            Random fecharandom2 = new Random();
+            lafechadenacimiento.mes = fecharandom2.Next(1, 13);
+            Random fecharandom3 = new Random();
+            lafechadenacimiento.anio = fecharandom3.Next(1965, 1998);
+
+            fechas lafechadeingreso;
+          
+            lafechadeingreso.dia = fecharandom1.Next(1, 31);
             
-            
-            
-            /*
-            fechanacimiento;
-            fechaingreso;
-            
+            lafechadeingreso.mes = fecharandom2.Next(1, 13);
+           
+            lafechadeingreso.anio = fecharandom3.Next(1965, 1998);
+      
+            /*DateTime fechaactual = new DateTime(1965, 1, 1);
+            DateTime fechainicial = new DateTime(1994, 1, 1);
+
+            TimeSpan rango=(fechaactual - fechainicial);
+
+            int diferenciadedias = rango.Days;
+            Random rand = new Random();
+            int valoraleatorio = rand.Next(diferenciadedias);
+         
+            DateTime fechaaleatoria = fechainicial.AddYears(valoraleatorio);     
             */
-            empleado emp= new empleado(nombre, apellido, estadocivilx, sueldo, generoX, cargox);
+            empleado emp= new empleado(nombre, apellido, estadocivilx, sueldo, generoX, cargox,lafechadenacimiento, lafechadeingreso);
             return emp;
         }
 
